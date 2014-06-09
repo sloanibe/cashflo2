@@ -22,8 +22,11 @@ public class DB {
     static {
         EmbeddedConfiguration config = Db4oEmbedded.newConfiguration();
         config.common().objectClass(CashFloDay.class).cascadeOnUpdate(true);
+        //Windows
+        //db = Db4oEmbedded.openFile(config, "C:\\Users\\mark\\cashflodata");
 
-        db = Db4oEmbedded.openFile(config, "C:\\Users\\mark\\cashflodata");
+        //Windows
+        db = Db4oEmbedded.openFile(config, "/Users/marksloan/cashflodata");
 
     }
 
