@@ -7,6 +7,7 @@ import java.util.Date;
  * Created by marksloan on 5/27/14.
  */
 public class CashFloDay {
+    //This a comment that simulates another developer updating before me
     Date   day;
     Double startAmt = 0.0;
     Double endAmt = 0.0;
