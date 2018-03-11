@@ -8,6 +8,8 @@ import java.util.Date;
  */
 public class CashFloDay {
     //This a comment that simulates another developer updating before me
+    //This is a second comment
+    //This is a third comment
     Date   day;
     Double startAmt = 0.0;
     Double endAmt = 0.0;
